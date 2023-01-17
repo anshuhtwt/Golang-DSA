@@ -82,3 +82,23 @@ func main() {
 		fmt.Println("Target not found in range")
 	}
 }
+
+
+
+
+
+// for Minimun
+package main
+
+import "fmt"
+
+func main() {
+	arr := []int{3, 2, 1, 4, 5}
+	min := arr[0]
+	for i := 1; i < len(arr); i++ {
+		if arr[i] < min {
+			min = arr[i]
+		}
+	}
+	fmt.Println("Minimum number:", min)
+}
