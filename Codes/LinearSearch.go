@@ -1,6 +1,4 @@
-#Integers
-
-
+// for integers
 package main
 
 import "fmt"
@@ -25,11 +23,11 @@ func main() {
 	}
 }
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-
-#Strings
 
 
+
+
+// for Strings
 package main
 
 import "fmt"
