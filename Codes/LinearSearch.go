@@ -1,4 +1,4 @@
-// for integers
+// for Integers
 package main
 
 import "fmt"
