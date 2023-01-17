@@ -51,3 +51,34 @@ func main() {
 		fmt.Println("Target found at index: ", index)
 	}
 }
+
+
+
+
+
+// for Range
+package main
+
+import "fmt"
+
+func linearSearch(arr []int, target int, start int, end int) int {
+	for i := start; i <= end; i++ {
+		if arr[i] == target {
+			return i
+		}
+	}
+	return -1
+}
+
+func main() {
+	arr := []int{1, 2, 3, 4, 5}
+	target := 1
+	start := 2
+	end := 3
+	index := linearSearch(arr, target, start, end)
+	if index != -1 {
+		fmt.Println("Target found at index:", index)
+	} else {
+		fmt.Println("Target not found in range")
+	}
+}
